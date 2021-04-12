@@ -17,7 +17,16 @@ Current dependencies:
 Installation
 ============
 
-###[Installing OSVIEWER]()
+1. git clone the repository.
+2. cd OSViewer
+3. virtualenv "name"
+4. source /path/to/virtal/envname/bin/activate
+5. pip install -r requirements.txt
+6. In osviewer/settings.py edit the secret key of your own.
+7. run command python manage.py syncdb
+8. Enter your admin credentials
+9. Once your admin credentials are set run command python manage.py runserver
+10. Server will be initialised at http://127.0.0.1:8000 open in browser
 
 
 
